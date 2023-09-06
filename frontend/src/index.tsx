@@ -29,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:"/",
     element:<Payment />
+  },
+  {
+    path:"/wallet/topUp",
+    element:<Payment />
   }
 ])
 

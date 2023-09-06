@@ -1,0 +1,13 @@
+.bgn{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF8F0;
+    width: 100vw;
+    height: 100vw;
+}
+.txt{
+    color: blueviolet;
+    width: 100%;
+
+}

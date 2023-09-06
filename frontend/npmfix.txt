@@ -7,4 +7,10 @@ npm start
 # Reset the execution policy to its previous state (Bypass in this case)
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-reacr shortcut 'frce'
+
+react shortcut 'frce'
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&family=PT+Sans&display=swap');
+</style>

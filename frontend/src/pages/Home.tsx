@@ -1,10 +1,12 @@
 import React from 'react'
-import Nav from './Nav'
+import Nav from '../Nav'
 function Home() {
   return (
     <>
         <Nav />
-        <div>Home</div>
+          <div>
+            <div>Home</div>
+          </div>
     </>
   )
 }
