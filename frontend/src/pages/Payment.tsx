@@ -4,6 +4,8 @@ import './Payment.css'
 import pod from '../assets/pod.png'; // Import the image
 import debit from '../assets/debit.png'; // Import the image
 import bank from '../assets/bank.png'; // Import the image
+import walletIcon from '../assets/walletIcon.png'; // Import the image
+
 
 
 function Payment() {
@@ -41,12 +43,12 @@ function Payment() {
                   </div>
               </div>
                 <div className='lowbtn'>
-                  <button  className='wallet'>
-                  SoyJu wallet
-                  <div className='w'>
-                    <img src="" alt="" />
-                    <div>$948.55</div>
-                  </div>
+                  <button  className='soywallet'>
+                    <h1>SoyJu wallet</h1>
+                    <div className='w'>
+                      <img src={walletIcon} alt="" />
+                      <div>$948.55</div>
+                    </div>
                   </button>
                 </div>
             </div>
