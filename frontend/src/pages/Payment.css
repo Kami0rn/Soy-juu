@@ -1,13 +1,130 @@
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
 .bgn{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #FFF8F0;
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    /* height: 100%; */
 }
 .txt{
     color: blueviolet;
     width: 100%;
 
+}
+.pMethod{
+    width: 60%;
+    height: 300px;
+    background-color: #fff;
+}
+.detail{
+    width: 20%;
+    /* height: 300px; */
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px ;
+}
+.detail h1{
+    color: #9E2B25;
+}
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vw; */
+    background-color: #FFF8F0;
+
+}
+.address {
+    display: flex;
+    flex-direction: column;
+}
+.address h1 {
+    margin: 10px;
+    margin-left: 30px;  
+}
+.address h4 {
+    margin: 10px;
+    margin-left: 30px;
+}
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-block-start-style: dashed ;
+    border-width: 1px; /* You can adjust the thickness of the dots */
+    width: 80%; /* Adjust the width of the line as needed */
+    color: #9E2B25;
+}
+
+.bill{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+}
+.bill h1 {
+    margin: 10px;
+    margin-left: 30px;
+}
+.bill ul {
+    margin: 10px;
+    margin-left: 40px;
+}
+.bill h2 {
+    margin-left: 10%;
+    margin-bottom: 4%;
+    margin-top: 15%;
+    color: #9E2B25;
+}
+.pMethod h1 {
+    margin: 10px;
+    margin-left: 30px;
+    color: #9E2B25;
+}
+.pMethod hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+#btn{
+    display: flex;
+    flex-direction: column ;
+    margin: 5%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #9E2B25;
+    border-radius: 12px;
+    height: 130px;
+    justify-content: center;
+}
+#btn:hover{
+    background-color: #a75854;
+    color: #fff;
+    width: 22%;
+    height: 150px;
+
+}
+#btn:active{
+    background-color: #9E2B25;
+    color: #fff;
+    
+}
+.topbtn{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.gbtn{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
 }

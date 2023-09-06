@@ -1,21 +1,38 @@
 import React from 'react'
 import './Nav.css'
 import { Link } from "react-router-dom";
+import { useState } from 'react'
+import walletIcon from './assets/walletIcon.png'; // Import the image
+import Vector from './assets/Vector.png'; // Import the image
+import burger from './assets/burger.png'; // Import the image
 
 function Nav() {
+    // const [ fix,setFix ] = useState(false)
+    // function setFixed(){
+    //   if (window.scrollY >= 392) {
+    //     setFix(true)
+    //   }else{
+    //     setFix(false)
+    //   }
+    // }
+    // window.addEventListener("scroll",setFixed)
   return (
-    <nav>  
-        <div>
-          <Link to='/home' >burger</Link>
-          <img src="#" alt="" />
+    <nav className='navbar'>
+        <div >
+          <Link to='/home' className='burger' >
+            <img  src={burger} alt="" />
+          </Link>
         </div>
-        <div>
-          <Link to='/wallet' >$1000</Link>
-          <img src='#' />
-        </div>
-        <div>
-          <a href='#' >name</a>
-          <img src='#' />
+      
+        <div className='walletNprofile'>
+          <div className='wallet'>
+            <Link to='/wallet' >$1000</Link>
+            <img src={walletIcon} />
+          </div >
+          <div className='profile'>
+            <a href='#' >Jenny Wilson</a>
+            <img src={Vector} />
+          </div>
         </div>
     </nav>
   )
