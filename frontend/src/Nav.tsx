@@ -26,8 +26,10 @@ function Nav() {
       
         <div className='walletNprofile'>
           <div className='wallet'>
-            <Link to='/wallet' >$1000</Link>
-            <img src={walletIcon} />
+            <Link to='/wallet' className='wallbox' >
+              <h1 id='box' >$1000</h1>
+              <img src={walletIcon} id='box' />
+            </Link>
           </div >
           <div className='profile'>
             <a href='#' >Jenny Wilson</a>

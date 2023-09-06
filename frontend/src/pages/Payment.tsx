@@ -36,9 +36,22 @@ function Payment() {
                     Pay at delivery  
                     <img src={pod} alt="" /> 
                   </button>
+                  <div>
+                    
+                  </div>
               </div>
+                <div className='lowbtn'>
+                  <button  className='wallet'>
+                  SoyJu wallet
+                  <div className='w'>
+                    <img src="" alt="" />
+                    <div>$948.55</div>
+                  </div>
+                  </button>
+                </div>
             </div>
-          </div>
+            
+            </div>
           <div className='detail'>
             <div className='address'>
               <h1>
