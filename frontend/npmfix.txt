@@ -1,0 +1,10 @@
+# Set the execution policy to RemoteSigned
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+# Run your npm command
+npm start
+
+# Reset the execution policy to its previous state (Bypass in this case)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+reacr shortcut 'frce'

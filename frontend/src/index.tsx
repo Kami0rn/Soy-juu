@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom'
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Wallet from './pages/Wallet';
+import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
 
 
