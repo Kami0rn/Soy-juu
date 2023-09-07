@@ -110,21 +110,15 @@ hr {
     /* transition-delay: 0.5s; */
 }
 #btn:hover{
-    background-color: #a75854;
+    background-color: #ffb26a;
     color: #fff;
     width: 22%;
     height: 150px;
 
 }
-#btn:hover{
-    background-color: #a75854;
-    color: #fff;
-    width: 22%;
-    height: 150px;
 
-}
 #btn:active{
-    background-color: #9E2B25;
+    background-color: #9e2b25c9;
     color: #fff;
     
 }
@@ -158,7 +152,7 @@ hr {
     /* transition-delay: 0.5s; */
 }
 .soywallet:hover{
-    background-color: #a75854;
+    background-color: #ffb26a;
     color: #fff;
 }
 .soywallet #banner{
