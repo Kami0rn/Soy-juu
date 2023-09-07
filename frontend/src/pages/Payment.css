@@ -139,7 +139,7 @@ hr {
     display: flex;
     flex-direction: column ;
     margin: 5%;
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     background-color: transparent;
@@ -154,6 +154,7 @@ hr {
 .soywallet:hover{
     background-color: #ffb26a;
     color: #fff;
+    width: 37%;
 }
 .soywallet #banner{
     font-size: 24px;
