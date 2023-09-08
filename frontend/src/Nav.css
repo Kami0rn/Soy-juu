@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* position: fixed; */
   }
   
 nav {
@@ -98,4 +99,8 @@ nav a{
     max-width: 70px ;
     max-height: 30px;
     margin-top: 5px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
 }

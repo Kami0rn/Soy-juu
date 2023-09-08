@@ -50,6 +50,11 @@ function Payment() {
                   </div>
                   </button>
                 </div>
+                <div className='pbtn'>
+                  <button className='paybtn'>
+                    Pay
+                  </button>
+                </div>
             </div>
             
             </div>
