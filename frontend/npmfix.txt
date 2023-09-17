@@ -8,7 +8,7 @@ npm start
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 
-react shortcut 'frce'
+react shortcut 'racfe'
 
 
 <style>

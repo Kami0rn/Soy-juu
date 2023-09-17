@@ -9,10 +9,15 @@ import {
 } from 'react-router-dom'
 import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
+import Home from './pages/Home';
 
 
 const router = createBrowserRouter([
   
+  {
+    path:"/",
+    element:<Home />
+  },
   {
     path:"/payment/wallet",
     element:<Wallet />
