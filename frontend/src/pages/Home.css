@@ -1,0 +1,30 @@
+.home-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+button {
+
+  border-width: 30px;
+  border-radius: 20px;
+  padding: none;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+
+  text-align: center;
+}
+.home-btn {
+  
+
+  color: rgb(250, 0, 0) ;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border: 100px;
+}

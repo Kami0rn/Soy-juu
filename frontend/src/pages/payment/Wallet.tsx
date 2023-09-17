@@ -1,7 +1,6 @@
 
 import React from 'react'
 import Nav from '../../Nav'
-import font from '../font';
 import { Link } from "react-router-dom";
 import './Wallet.css'
 

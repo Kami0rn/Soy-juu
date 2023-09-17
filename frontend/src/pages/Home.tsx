@@ -1,13 +1,21 @@
 import React from 'react'
 import Nav from '../Nav'
-function Home() {
+import { Link } from "react-router-dom";
+import './Home.css'
+
+const Home = () => {
   return (
-    <>
-        <Nav />
-          <div>
-            <div>Home</div>
-          </div>
-    </>
+    
+    <div className='home-bg'>
+        
+        <Link className="home-btn" to='/' >
+            <button>home</button>
+        </Link>
+
+        <Link className="home-btn" to='/payment' >
+            <button>payment</button>
+        </Link>
+     </div>
   )
 }
 

@@ -17,21 +17,21 @@ function Nav() {
     // }
     // window.addEventListener("scroll",setFixed)
   return (
-    <nav className='navbar'>
+    <nav id='navbar'>
         <div >
-          <Link to='/home' className='burger' >
+          <Link to='/home' id='burger' >
             <img  src={burger} alt="" />
           </Link>
         </div>
       
-        <div className='walletNprofile'>
-          <div className='wallet'>
-            <Link to='/wallet' className='wallbox' >
+        <div id='walletNprofile'>
+          <div id='wallet'>
+            <Link to='/wallet' id='wallbox' >
               <h1 id='box' >$1000</h1>
               <img src={walletIcon} id='box' />
             </Link>
           </div >
-          <div className='profile'>
+          <div id='profile'>
             <a href='#' >Jenny Wilson</a>
             <img src={Vector} />
           </div>

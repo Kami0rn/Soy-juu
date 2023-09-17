@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* position: fixed; */
   }
   
 nav {
@@ -24,7 +25,7 @@ nav a{
 }
 
 
-.wallet {
+#wallet {
     border-left: 100px;
     display: flex;
     margin-right: 20px;
@@ -38,7 +39,7 @@ nav a{
     max-width:150px;
 
 }
-.wallet:hover {
+#wallet:hover {
     border-left: 100px;
     display: flex;
     margin-right: 20px;
@@ -55,7 +56,7 @@ nav a{
 
 }
 
-.wallbox {
+#wallbox {
     display: flex;
     flex-direction: row;
     justify-content: center ;
@@ -65,37 +66,41 @@ nav a{
 #box{
     margin-right: 30px;
 }
-.wallet *{
+#wallet *{
     color: #9E2B25;
 
 }
-.wallet img{
+#wallet img{
     width: 100%;
     height: 100%;
 }
-.walletNprofile{
+#walletNprofile{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 }
-.profile {
+#profile {
     display: flex;
     margin-right: 1.1rem;
     align-items: center;
     height: 100%;
 }
-.profile img{
+#profile img{
     /* width: 100%; */
     height: 100%;
 }
-.burger{
+#burger{
     width: 80% ;
     height: 80%;
 
 }
   
-.burger img{
+#burger img{
     max-width: 70px ;
     max-height: 30px;
     margin-top: 5px;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
 }

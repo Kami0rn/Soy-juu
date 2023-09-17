@@ -1,33 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
-import Home from './pages/Home';
-import Profile from './pages/Profile';
 import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
+import Home from './pages/Home';
 
 
 const router = createBrowserRouter([
+  
   {
-    path:"/home",
+    path:"/",
     element:<Home />
   },
   {
-    path:"/about",
-    element:<Profile />
-  },
-  {
-    path:"/wallet",
+    path:"/payment/wallet",
     element:<Wallet />
   },
   {
-    path:"/",
+    path:"/payment",
     element:<Payment />
   },
   {

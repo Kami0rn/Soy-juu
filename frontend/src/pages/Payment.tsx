@@ -17,23 +17,23 @@ function Payment() {
 
     <div className='bgn'>
         <Nav />
-        <section className='bg'>
-          <div className='pMethod'>
+        <section id='bg'>
+          <div id='pMethod'>
             <h1>
               Select payment method
             </h1>
             <hr />
-            <div className='gbtn'>
-              <div className='topbtn'>
-                  <button id='btn' className='debit'>
+            <div id='gbtn'>
+              <div id='topbtn'>
+                  <button className='btn' id='debit'>
                     Credit / Debit Card
                     <img src={bank} alt="" />
                   </button>
-                  <button id='btn' className='bank'>
+                  <button className='btn' id='bank'>
                     Banktranfer
                     <img src={debit} alt="" /> 
                   </button>
-                  <button id='btn' className='pod'>
+                  <button className='btn' id='pod'>
                     Pay at delivery  
                     <img src={pod} alt="" /> 
                   </button>
@@ -41,20 +41,25 @@ function Payment() {
                     
                   </div>
               </div>
-                <div className='lowbtn'>
-                  <button  className='soywallet'>
+                <div id='lowbtn'>
+                  <button  id='soywallet'>
                   <div id='banner'>SoyJu Wallet</div>
-                  <div className='w'>
+                  <div id='w'>
                     <img src={walletIcon} alt="" />
                     <div>$948.55</div>
                   </div>
                   </button>
                 </div>
+                <div id='pbtn'>
+                  <button id='paybtn'>
+                    Pay
+                  </button>
+                </div>
             </div>
             
             </div>
-          <div className='detail'>
-            <div className='address'>
+          <div id='detail'>
+            <div id='address'>
               <h1>
                 Name-Address
               </h1>
@@ -67,7 +72,7 @@ function Payment() {
               </h4>
               
             </div>
-            <div className='bill'>
+            <div id='bill'>
               <h1>
                 Billing
               </h1>
