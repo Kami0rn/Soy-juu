@@ -43,7 +43,7 @@ function Payment() {
               </div>
                 <div id='lowbtn'>
                   <button  id='soywallet'>
-                  <div id='banner'>SoyJu Wallet</div>
+                  <div id='banner'>SoyJu Wallets</div>
                   <div id='w'>
                     <img src={walletIcon} alt="" />
                     <div>$948.55</div>
