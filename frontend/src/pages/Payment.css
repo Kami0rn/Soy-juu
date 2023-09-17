@@ -162,13 +162,12 @@ hr {
 #soywallet:hover{
     background-color: #ffb26a;
     color: #fff;
-<<<<<<< HEAD
 
     width: 45%;
     transition-duration: 0.7s;
-=======
+
     width: 37%;
->>>>>>> 0e64393066d3bf6a964d60b302d4f8f97b6a8846
+
 }
 #soywallet #banner{
     font-size: 24px;
