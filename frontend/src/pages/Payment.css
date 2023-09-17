@@ -160,6 +160,9 @@ hr {
 .soywallet:hover{
     background-color: #a75854;
     color: #fff;
+
+    width: 45%;
+    transition-duration: 0.7s;
 }
 .soywallet #banner{
     font-size: 24px;
