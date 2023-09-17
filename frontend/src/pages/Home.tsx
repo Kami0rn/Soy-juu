@@ -6,13 +6,13 @@ import './Home.css'
 const Home = () => {
   return (
     
-    <div>
+    <div className='home-bg'>
         
-        <Link id="btn" to='/' >
+        <Link className="home-btn" to='/' >
             <button>home</button>
         </Link>
 
-        <Link id="btn" to='/payment' >
+        <Link className="home-btn" to='/payment' >
             <button>payment</button>
         </Link>
      </div>
