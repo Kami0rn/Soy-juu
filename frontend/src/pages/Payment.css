@@ -15,25 +15,26 @@
     width: 100%;
 
 }
-.pMethod{
+#pMethod{
     width: 60%;
     /* height: 300px; */
     background-color: #fff;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 17px;
+    max-width: 900px ;
 }
-.detail{
+#detail{
     width: 20%;
     /* height: 300px; */
     background-color: #fff;
     margin: 20px;
     border-radius: 20px ;
 }
-.detail h1{
+#detail h1{
     color: #9E2B25;
 }
-.bg{
+#bg{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,15 +44,15 @@
     padding-top: 40px ;
 
 }
-.address {
+#address {
     display: flex;
     flex-direction: column;
 }
-.address h1 {
+#address h1 {
     margin: 10px;
     margin-left: 30px;  
 }
-.address h4 {
+#address h4 {
     margin: 10px;
     margin-left: 30px;
 }
@@ -64,37 +65,37 @@ hr {
     color: #9E2B25;
 }
 
-.bill{
+#bill{
     display: flex;
     flex-direction: column;
     height: 100%;
     margin-top: 20px;
 }
-.bill h1 {
+#bill h1 {
     margin: 10px;
     margin-left: 30px;
 }
-.bill ul {
+#bill ul {
     margin: 10px;
     margin-left: 40px;
 }
-.bill h2 {
+#bill h2 {
     margin-left: 10%;
     margin-bottom: 4%;
     margin-top: 15%;
     color: #9E2B25;
 }
-.pMethod h1 {
+#pMethod h1 {
     margin: 10px;
     margin-left: 30px;
     color: #9E2B25;
 }
-.pMethod hr {
+#pMethod hr {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
 }
-#btn{
+.btn{
     display: flex;
     flex-direction: column ;
     margin: 5%;
@@ -111,7 +112,7 @@ hr {
     transition-duration: 0.5s;
     /* transition-delay: 0.5s; */
 }
-#btn:hover{
+.btn:hover{
     background-color: #ffb26a;
     color: #fff;
     width: 22%;
@@ -119,26 +120,30 @@ hr {
 
 }
 
-#btn:active{
+.btn:active{
     background-color: #9e2b25c9;
     color: #fff;
     
 }
-.topbtn{
+.btn img{
+    max-height: 50px;
+}
+#topbtn{
     display: flex;
     flex-direction: row ;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
-.gbtn{
+#gbtn{
     display: flex;
     flex-direction: column ;
     align-items: center;
     justify-content: center;
+    /* max-width: 500px; */
     
 }
-.soywallet{
+#soywallet{
     display: flex;
     flex-direction: column ;
     margin: 5%;
@@ -154,19 +159,19 @@ hr {
     transition-duration: 0.5s;
     /* transition-delay: 0.5s; */
 }
-.soywallet:hover{
+#soywallet:hover{
     background-color: #ffb26a;
     color: #fff;
     width: 37%;
 }
-.soywallet #banner{
+#soywallet #banner{
     font-size: 24px;
     margin-bottom: 15px;
 }
-.soywallet h1{
+#soywallet h1{
     margin-bottom: 20px;
 }
-.lowbtn{
+#lowbtn{
     display: flex;
     flex-direction: row ;
     width: 100%;
@@ -174,7 +179,7 @@ hr {
     justify-content: center;
     
 }
-.w{
+#w{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -183,13 +188,16 @@ hr {
     font-size: 30px;
     
 }
-.pbtn{
+#w img{
+    max-height: 40px ;
+}
+#pbtn{
     width: 100%;
     height: 100px;
     display :flex ;
     align-items: center;
 }
-.paybtn{
+#paybtn{
     width: 13%;
     height: 45%;
     margin-left: 10% ;

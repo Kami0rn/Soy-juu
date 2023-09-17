@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Buttons</title>
+    <style>
+        .toggle-button {
+            background-color: #ccc;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .selected {
+            background-color: #00f;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle-button" id="button1" onclick="toggleButton(1)">Button 1</div>
+    <div class="toggle-button" id="button2" onclick="toggleButton(2)">Button 2</div>
+    <div class="toggle-button" id="button3" onclick="toggleButton(3)">Button 3</div>
+    <div class="toggle-button" id="button4" onclick="toggleButton(4)">Button 4</div>
+    
+    <button onclick="processButtons()">Process</button>
+
+    <script>
+        let selectedButton = null;
+
+        function toggleButton(buttonNumber) {
+            const button = document.getElementById(`button${buttonNumber}`);
+            if (buttonNumber === selectedButton) {
+                // Toggle off if already selected
+                selectedButton = null;
+                button.classList.remove('selected');
+            } else {
+                // Toggle on if not selected
+                if (selectedButton !== null) {
+                    const previouslySelectedButton = document.getElementById(`button${selectedButton}`);
+                    previouslySelectedButton.classList.remove('selected');
+                }
+                selectedButton = buttonNumber;
+                button.classList.add('selected');
+            }
+        }
+
+        function processButtons() {
+            if (selectedButton !== null) {
+                // Redirect to different pages based on the selected button
+                const pageMapping = {
+                    1: 'page1.html',
+                    2: 'page2.html',
+                    3: 'page3.html',
+                    4: 'page4.html'
+                };
+                const selectedPage = pageMapping[selectedButton];
+                if (selectedPage) {
+                    window.location.href = selectedPage;
+                }
+            } else {
+                alert('Please select a button before processing.');
+            }
+        }
+    </script>
+</body>
+</html>
