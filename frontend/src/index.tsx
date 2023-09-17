@@ -11,6 +11,7 @@ import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
 import Home from './pages/Home';
 import Delivery from './pages/delivery/main';
+import Rider from './pages/rider/Rider';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path:"/delivery",
     element:<Delivery />
+  },
+  {
+    path:"/rider",
+    element:<Rider />
   }
 ])
 
