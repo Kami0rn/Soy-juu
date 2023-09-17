@@ -10,6 +10,7 @@ import {
 import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
 import Home from './pages/Home';
+import Delivery from './pages/delivery/main';
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path:"/wallet/topUp",
     element:<Payment />
+  },
+  {
+    path:"/delivery",
+    element:<Delivery />
   }
 ])
 
