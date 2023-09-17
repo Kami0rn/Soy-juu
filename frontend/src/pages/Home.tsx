@@ -19,6 +19,10 @@ const Home = () => {
         <Link className="home-btn" to='/delivery'>
             <button>delivery</button>
           </Link>
+
+          <Link className="home-btn" to='/addmenu'>
+            <button>addmenu</button>
+          </Link>
      </div>
   )
 }
