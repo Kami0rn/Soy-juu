@@ -209,13 +209,13 @@ hr {
     
 }
 
-.paybtn:hover{
+#paybtn:hover{
     background-color: #bc69627a;
     border: #BC6962;
     color: #9E2B25;
     border-width: 1px;
 }
-.paybtn:active{
+#paybtn:active{
     background-color: #9E2B25;
     color: #fff;
 }

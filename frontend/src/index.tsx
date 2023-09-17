@@ -7,27 +7,18 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
-import Home from './pages/Home';
-import Profile from './pages/Profile';
 import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
 
 
 const router = createBrowserRouter([
+  
   {
-    path:"/home",
-    element:<Home />
-  },
-  {
-    path:"/about",
-    element:<Profile />
-  },
-  {
-    path:"/wallet",
+    path:"/payment/wallet",
     element:<Wallet />
   },
   {
-    path:"/",
+    path:"/payment",
     element:<Payment />
   },
   {
