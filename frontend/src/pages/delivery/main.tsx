@@ -20,6 +20,7 @@ function App() {
         <OrderBar />
 
         <OrderWindow />
+        <div>kkkk</div>
 
         
       </div>
