@@ -5,6 +5,7 @@ import pod from '../assets/pod.png'; // Import the image
 import debit from '../assets/debit.png'; // Import the image
 import bank from '../assets/bank.png'; // Import the image
 import walletIcon from '../assets/walletIcon.png'; // Import the image
+import { Link } from 'react-router-dom';
 
 
 function Payment() {
@@ -91,6 +92,7 @@ function Payment() {
               <h2>
                 Totals : $14.81
               </h2>
+              
               
 
             </div>

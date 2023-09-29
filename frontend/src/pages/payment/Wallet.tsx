@@ -20,6 +20,7 @@ function Wallet() {
         </Link>
         </div>
         <div>Wallet</div>
+        <a href="/payment"><div>GG</div></a>
     </>
   )
 }
