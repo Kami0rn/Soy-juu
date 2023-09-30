@@ -113,7 +113,7 @@ hr {
     /* transition-delay: 0.5s; */
 }
 .btn:hover{
-    background-color: #ffb26a;
+    background-color: #f1740076;
     color: #fff;
     width: 22%;
     height: 150px;
@@ -160,7 +160,7 @@ hr {
     /* transition-delay: 0.5s; */
 }
 #soywallet:hover{
-    background-color: #ffb26a;
+    background-color: #f1740076;
     color: #fff;
 
     width: 45%;
