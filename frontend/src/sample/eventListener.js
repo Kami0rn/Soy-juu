@@ -17,3 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const addImageButton = document.getElementById('addImage');
     addImageButton.addEventListener('click', addImage);
 });
+
+
+
