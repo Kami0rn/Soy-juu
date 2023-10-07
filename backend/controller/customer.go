@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/Kami0rn/sa-66-example/entities"
+	"github.com/Kami0rn/Soy-juu/entities"
 )
 
 
