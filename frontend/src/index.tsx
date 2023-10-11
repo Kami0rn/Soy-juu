@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,6 +12,8 @@ import Wallet from './pages/payment/Wallet';
 import Payment from './pages/Payment';
 import Home from './pages/Home';
 import Delivery from './pages/delivery/main';
+import ShowOrder from './pages/delivery/ShowOrder';
+import OrderHistory from './pages/delivery/OrderHistory';
 
 
 const router = createBrowserRouter([
@@ -34,7 +37,16 @@ const router = createBrowserRouter([
   {
     path:"/delivery",
     element:<Delivery />
+  },
+  {
+    path:"/delivery/showorder",
+    element:<ShowOrder />
+  },
+  {
+    path:"/delivery/orderhistory",
+    element:<OrderHistory />
   }
+ 
 ])
 
 const root = ReactDOM.createRoot(

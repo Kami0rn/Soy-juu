@@ -1,15 +1,21 @@
-import meat_01 from "./orderImages/meat_01.jpg"
+import React, {useState} from 'react';
+import './OrderBar.css';
 
-function OrderBar() {
-    return(
-        <div className="order-image">
-            <img src={meat_01} alt="order01" className='meat' />
-            <div className="order-text">
-                order small detail 
-            </div>
-          </div>
+interface OrderBarProps {
+  title: string;
 
-    );
+};
+
+const OrderBar = ({title}: OrderBarProps) => {
+
+
+  return (
+    <div className='OrderBar'>
+      <div className='customerAddress'>
+        {title}
+      </div>
+    </div>
+  )
 }
 
-export default OrderBar
+export default OrderBar;
